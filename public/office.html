@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prerna's Todo List</title>
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Icon Link -->
+    <link rel="shortcut icon" href="./images/bars-solid.svg" type="image/x-icon">
+
+</head>
+<body>
+    <!-- Main Div -->
+    <div id="mainDiv" class="container">
+    <p id="dt"></p>
+
+    <!-- <h3>Welcome in Office Prerna..!</h3> -->
+
+    <a href="index.html" class="my_link">Home</a>
+    <a href="office.html" class="my_link">Office</a>
+
+    <!-- Fisrt Half : Input Div -->
+    <div id="inputDiv">
+        <input type="text" id="inputTask" placeholder="Enter Your Office Task..!">
+        <button id="addTask" class="btn btn-outline-primary">Add</button>
+    </div>
+
+    <!-- Second Half : Task's Div -->
+    <div id="taskDiv">
+        <ul> </ul>
+    </div>
+
+    </div>
+
+    <!-- Java-Script -->
+    <script src="todo.js"></script>
+</body>
+</html>
